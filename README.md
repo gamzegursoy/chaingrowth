@@ -1,4 +1,4 @@
-Please download exacutables and configuration files from the releases tab.
+Please download executables and configuration files from the releases tab.
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
