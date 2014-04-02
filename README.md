@@ -31,6 +31,8 @@ contact probability and mean-square spatial distance
 command below will create two files with extensions {chain_file}.c and {chain_file}.sq.  
 <chain_file>.c contains the contact probability for each contour length and 
 <chain_file>.sq contains the mean-square spatial distance for each contour length.
+Dynamic resampling and resampling outputs are slightly different, we created binearies for 
+both output.
 Please note that each contact probability and mean-square spatial distance should be
 weighted by the chain weight.
 
