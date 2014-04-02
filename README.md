@@ -28,14 +28,16 @@ diameter of the confinement can be changed using the resampling.ensemble.ini
 contact probability and mean-square spatial distance
 ------------------------------------------------------
 
-command below will create two files with extensions <<chain_file>>.c and <<chain_file>>.sq.  
+command below will create two files with extensions {chain_file}.c and {chain_file}.sq.  
 <chain_file>.c contains the contact probability for each contour length and 
 <chain_file>.sq contains the mean-square spatial distance for each contour length.
 Please note that each contact probability and mean-square spatial distance should be
 weighted by the chain weight.
 
-./CheckDistance_dyn_resampling <chain_file> <number_of_nodes>
-./CheckDistance_resampling <chain_file> <number_of_nodes>
+./CheckDistance_dyn_resampling {chain_file} {number_of_nodes}
+
+
+./CheckDistance_resampling {chain_file} {number_of_nodes}
 
 
 
